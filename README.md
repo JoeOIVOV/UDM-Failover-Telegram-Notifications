@@ -3,7 +3,7 @@
 ## Changelog
 
 - 2023-02-22 - Added support for multiple UDM versions 1.x, 2.x and 3.x
-
+- 2026-03-15 - Added support for 4.x and 5.x
 ## Persistence on Reboot
 
 This script need to run every time the system is rebooted since the UDM overwrites crons every boot.
@@ -22,7 +22,7 @@ curl -s https://raw.githubusercontent.com/fire1ce/UDM-Failover-Telegram-Notifica
 Set your Telegram Chat ID and Bot API Key at
 
 $DATA_DIR for 1.x = /mnt/data
-$DATA_DIR for 2.x and 3.x = /data
+$DATA_DIR for 2.x - 5.x = /data
 
 ```bash
 $DATA_DIR/UDMP-Failover-Telegram-Notifications/failover-notifications.sh
