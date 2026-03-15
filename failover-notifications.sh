@@ -9,7 +9,7 @@ telegram_chat_id="YOUR_TELEGRAM_CHAT_ID"
 # Destenation Host IP
 echo_server_ip="1.1.1.1"
 # Interval between checks (in seconds)
-run_interval=60
+run_interval=15
 ### End Config ###
 
 # funtion to return the current WAN interface name
